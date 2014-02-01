@@ -1,0 +1,40 @@
+.tweet,
+.query {
+	font: 120% Georgia, serif;
+	color: #085258;
+}
+
+	.tweet_list {
+		display: block;
+	position: absolute;
+	top: 1px;
+	left: 200px;
+	width: 700px;
+	height: 75px;
+	}
+
+		.tweet_list li {
+			display: block;
+	width: 700px;
+	height: 80px; /* original height 170px */
+	font-size: 16px;
+	line-height: 1.5em;
+	font-style: italic;
+	color: #838383;
+	padding-top: 25px; 
+		}
+		
+		
+
+			.tweet_list li a {
+				color: #0C717A;
+			}
+
+
+		.tweet_list .tweet_avatar {
+			padding-right: .5em; float: left;
+		}
+
+			.tweet_list .tweet_avatar img {
+				vertical-align: middle;
+			}
