@@ -5,7 +5,7 @@
 /* page1 */
 #page1 #logo_box{padding:48px 0 32px 0px}
 #page1 header nav {top:72px}
-#page1 .body3 {background:url(../seasons/fall.PNG) center top no-repeat;position:absolute; overflow:hidden;height:415px;width:373px;top:50px;left:60%;margin-left:127px;z-index:10}
+#page1 .body3 {background:url(../Seasons/Fall.PNG) center top no-repeat;position:absolute; overflow:hidden;height:415px;width:373px;top:50px;left:60%;margin-left:127px;z-index:10}
 #page1 .text1 {padding:199px 0 0 47px}
 #page1 #icons {padding:42px 0 0 353px}
 #page1 header {padding-bottom:183px}

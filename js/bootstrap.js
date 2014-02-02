@@ -347,12 +347,12 @@ if (typeof jQuery === 'undefined') { throw new Error('Bootstrap requires jQuery'
     var $next     = next || $active[type]()
     var isCycling = this.interval
     var direction = type == 'next' ? 'left' : 'right'
-    var fallback  = type == 'next' ? 'first' : 'last'
+    var Fallback  = type == 'next' ? 'first' : 'last'
     var that      = this
 
     if (!$next.length) {
       if (!this.options.wrap) return
-      $next = this.$element.find('.item')[fallback]()
+      $next = this.$element.find('.item')[Fallback]()
     }
 
     if ($next.hasClass('active')) return this.sliding = false

@@ -460,7 +460,7 @@ jQuery.extend({
 			// Use the handy event callback
 			document.addEventListener( "DOMContentLoaded", DOMContentLoaded, false );
 
-			// A fallback to window.onload, that will always work
+			// A Fallback to window.onload, that will always work
 			window.addEventListener( "load", jQuery.ready, false );
 
 		// If IE event model is used
@@ -469,7 +469,7 @@ jQuery.extend({
 			// maybe late but safe also for iframes
 			document.attachEvent( "onreadystatechange", DOMContentLoaded );
 
-			// A fallback to window.onload, that will always work
+			// A Fallback to window.onload, that will always work
 			window.attachEvent( "onload", jQuery.ready );
 
 			// If IE and not a frame
@@ -2420,7 +2420,7 @@ jQuery.fn.extend({
 
 			hooks = jQuery.valHooks[ this.type ] || jQuery.valHooks[ this.nodeName.toLowerCase() ];
 
-			// If set returns undefined, fall back to normal setting
+			// If set returns undefined, Fall back to normal setting
 			if ( !hooks || !("set" in hooks) || hooks.set( this, val, "value" ) === undefined ) {
 				this.value = val;
 			}
@@ -4733,7 +4733,7 @@ var Expr = Sizzle.selectors = {
 
 					node = elem;
 
-					/* falls through */
+					/* Falls through */
 				case "last":
 					while ( (node = node.nextSibling) ) {
 						if ( node.nodeType === 1 ) {
@@ -4868,7 +4868,7 @@ var makeArray = function( array, results ) {
 try {
 	Array.prototype.slice.call( document.documentElement.childNodes, 0 )[0].nodeType;
 
-// Provide a fallback method if it does not work
+// Provide a Fallback method if it does not work
 } catch( e ) {
 	makeArray = function( array, results ) {
 		var i = 0,
@@ -5955,7 +5955,7 @@ jQuery.fn.extend({
 
 					elem = 0;
 
-				// If using innerHTML throws an exception, use the fallback method
+				// If using innerHTML throws an exception, use the Fallback method
 				} catch(e) {}
 			}
 
@@ -8165,7 +8165,7 @@ jQuery.ajaxSettings.xhr = window.ActiveXObject ?
 	 * implement the XMLHttpRequest in IE7 (can't request local files),
 	 * so we use the ActiveXObject when it is available
 	 * Additionally XMLHttpRequest can be disabled in IE7/IE8 so
-	 * we need a fallback.
+	 * we need a Fallback.
 	 */
 	function() {
 		return !this.isLocal && createStandardXHR() || createActiveXHR();

@@ -158,7 +158,7 @@
 
 			if (bgImage) {
 				var bgImagePNG = rePNG.test(bgImage[1]);
-				// fallback to background-color/padding/border in IE6 if a PNG is used
+				// Fallback to background-color/padding/border in IE6 if a PNG is used
 				if (ie6 && bgImagePNG) {
 					this.$tip.css('background-image', 'none');
 					this.$inner.css({margin: 0, border: 0, padding: 0});
