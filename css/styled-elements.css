@@ -62,14 +62,14 @@
 
 /* DROPCAP ------------------------------------------------------------*/
 
-.dropcap:first-letter{ 
+.dropcap:first-Letter{ 
 	font-size: 3.571em; 
 	line-height: 0.76em; 
 	padding: 0.04em 0.12em 0 0; 
 	float: left;
 }
 
-.dropcap.dark:first-letter{ 
+.dropcap.dark:first-Letter{ 
 	display:block;
 	float:left;
 	font-size:30px;

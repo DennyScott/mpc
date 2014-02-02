@@ -69,9 +69,9 @@ header nav {border:1px solid #bebebe;background:url(../images/menu_bg.gif) botto
 #menu .bg_none {background:none;padding-right:0;margin-right:0}
 #menu li a {display:block;font-size:17px;color:#2c2d2e;text-decoration:none;line-height:47px}
 #menu li a:hover, #menu #menu_active a {color:#0665a2}
-.text1 {font-size:36px;color:#545454;padding:179px 0 0 47px;line-height:48px;letter-spacing:-2px}
+.text1 {font-size:36px;color:#545454;padding:179px 0 0 47px;line-height:48px;Letter-spacing:-2px}
 .text2 {font-size:26px;line-height:36px;color:#1d8bce;padding:0 0 0 130px}
-#icons {font-size:20px;line-height:22px;color:#515151;padding:0 0 0 531px;letter-spacing:-1px;margin-top:-10px;height:22px;overflow:hidden}
+#icons {font-size:20px;line-height:22px;color:#515151;padding:0 0 0 531px;Letter-spacing:-1px;margin-top:-10px;height:22px;overflow:hidden}
 #icons li {float:left;padding-left:10px}
 #icons span {padding-right:13px}
 
@@ -129,7 +129,7 @@ footer .list1 li {line-height:20px}
 #form_2 .input1 {width:120px}
 #form_2 .input2 {width:91px}
 #form_2 a {line-height:32px}
-#ContactForm {line-height:30px;font-weight:bold;letter-spacing:-1px;width:100%}
+#ContactForm {line-height:30px;font-weight:bold;Letter-spacing:-1px;width:100%}
 #ContactForm a {float:right;margin-bottom:0;background:url(../images/button3_bg.gif) top repeat-x;margin-top:5px}
 #ContactForm a span {background:url(../images/button3_left.jpg) top left no-repeat}
 #ContactForm a span span {background:url(../images/button3_right.jpg) top right no-repeat}

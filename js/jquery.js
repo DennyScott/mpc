@@ -67,8 +67,8 @@ var jQuery = function( selector, context ) {
 	rmsPrefix = /^-ms-/,
 
 	// Used by jQuery.camelCase as callback to replace()
-	fcamelCase = function( all, letter ) {
-		return ( letter + "" ).toUpperCase();
+	fcamelCase = function( all, Letter ) {
+		return ( Letter + "" ).toUpperCase();
 	},
 
 	// Keep a UserAgent string for use with jQuery.browser
