@@ -6,6 +6,9 @@ mark, rp, rt, ruby, summary, time {display:inline}
 /* Left & Right alignment */
 .left {float:left}
 
+.frontPage {
+    width:320px!important;
+}
 
 .right {float:right}
 .wrapper {width:100%;overflow:hidden}
