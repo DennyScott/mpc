@@ -13,7 +13,7 @@
 <link rel="stylesheet" href="css/style.css" type="text/css" media="all">
 <link rel="stylesheet" href="css/social-icons.css" type="text/css" media="screen" />
 <link rel="stylesheet" href="css/styled-elements.css" type="text/css" media="screen" />
-
+<link href="css/bootstrap.min.css" rel="stylesheet">
 
 
 
@@ -28,7 +28,8 @@
 	<script type="text/javascript" src="js/cufon-yui.js"></script>
 	<script type="text/javascript" src="js/cufon-replace.js"></script>	
 	<script type="text/javascript" src="js/Myriad_Pro_300.font.js"></script>
-	<script type="text/javascript" src="js/title.js"></script>
+    <script type="text/javascript" src="js/title.js"></script>
+    <script src="js/bootstrap.min.js"></script> 
 	<!-- ENDS Javascript/JQuery-->
 
 	
@@ -127,8 +128,8 @@
 	
 <!-- header -->
 		<header>
-			<div id="logo_box">
-				<h1><a href="index.html" id="logo"><img src="images/PLogo.PNG" id="logoPic" />Manitoba Police Commission</a></h1>
+			<div id="logo_box" class="col-xs-12">
+				<h1 class="policeCommissionLogo"><a href="index.html" id="logo"><img src="images/PLogo.PNG" id="logoPic" />Manitoba Police Commission</a></h1>
 			</div>
 			<nav>
 				<ul id="menu" class="sf-menu">
@@ -142,7 +143,7 @@
 			</nav>
 			<div class="wrapper">
 				<div class="text1">Our Vision</div>
-				<div class="text2">To be a collabrotive, progressive, and incusive <br>change agent for policing in Manitoba</div>
+                <div class="text2">To work collaboaratively to improve transparency <br>and accountability in the delivery of policing <br>services in Manitoba</div>
 				<ul id="icons">
 					<li><span>Follow Us!</span></li>
 					<li><a href="#"><img src="images/youtube-icon.png" alt=""></a></li>
@@ -159,8 +160,13 @@
 	<div class="main">
 <!-- content -->
 		<section id="content">
-			<div class="marg_top wrapper">
-				<article class="col1">
+        <div class="marg_top wrapper">
+                
+            <div class="messageFromTheChair">
+                <a href="images/letter.png" rel="prettyPhoto[group1]" title="Message from the Chair"> Message from the Chair</a>
+            </div>
+
+				<article class="frontPage col1">
 					<div class="box1_out">
 						<div class="box1">
 							<h2>Police Boards</h2>
@@ -173,7 +179,7 @@
 					</div>
 					<div class="box1_bot"><div class="box1_bot_left"><div class="box1_bot_right"></div></div></div>
 				</article>
-				<article class="col1 pad_left1">
+				<article class="frontPage col1 pad_left1">
 					<div class="box1_out">
 						<div class="box1">
 							<h2>Civilian Monitors</h2>
@@ -186,7 +192,7 @@
 					</div>
 					<div class="box1_bot"><div class="box1_bot_left"><div class="box1_bot_right"></div></div></div>
 				</article>
-				<article class="col1 pad_left1">
+				<article class="frontPage col1 pad_left1">
 					<div class="box1_out">
 						<div class="box1">
 							<h2>Legislation</h2>
@@ -201,28 +207,25 @@
 				</article>
 			</div>
 			<div class="wrapper marg_top2">
-				<article class="col1">
-					<div class="box2">
-						<div class="pad">
-							<a href="About/ricklinden.html"><h2>Chair</h2></a>
-							
-							<ul id="portfolio-list" class="gallery four-cols">
-								<li class="pink"><a href="images/letter.png" rel="prettyPhoto[group1]" title="Message from the Chair"><img src="images/noteFront.jpg" alt="Letter" /></a></li>
-								</ul>
-																<a href="about/commissioners.html"><h2>Commission</h2></a>
-					
+				<article class="frontPage col1">
+					<div class="box1_out">
+						<div class="box1">
+							<h2>Ministerial Assignment</h2>
+							<p class="pad_bot1">
+							At the request of the Minister of Justice, the MPC may be assigned specific duties or research projects related to policing.<br><br>
+							</p>
+							<a href="Programs/PoliceBoards.html" class="button"><span><span>Read More</span></span></a>
+							<img src="images/img1.png" class="img" alt="">
 						</div>
 					</div>
+					<div class="box1_bot"><div class="box1_bot_left"><div class="box1_bot_right"></div></div></div>
 				</article>
 				<article class="col2 pad_left1">
 					<div class="pad">
 						<h2>Our Mission</h2>
-						<p><strong>The Manitoba Police Commission's</strong> mission is to enable independent civilian oversight and governance of policing in Manitoba. To act as a change agent by providing appropriate adivce to government on policing issues. </p>
+						<p>To ensure effective civillian oversight and a high standard of policing in Manitoba through partnerships with the public, police boards and police agencies and by providing independent advice to the Minister of Justice on standards and policing issues.</p>
 						
-						<p class="under">Further information about <strong>The Manitoba Police Commission</strong> can be found at <a href="About.html">About</a>, to learn more about our
-						<a href="Program.html">Programs</a>, <a href="Contacts.html">Contacts</a>, <a href="Partners.html">Partners</a>, click on the appropriate link. To see a map of our site, 
-						visit our <a href="SiteMap.html">Site Map</a>. Below is some links to our recent legislation.</p>
-						
+												
 						<div class="wrapper">
 							<ul class="list1 cols">
 								<li><a href="Programs/legislation.html">Infomation of Legislation</a></li>

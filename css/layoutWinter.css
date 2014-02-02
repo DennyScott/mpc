@@ -1,7 +1,8 @@
 .col1, .col2, .col3, .cols {float:left}
-.col1 {width:304px}
+.col1 {width:302px}
 .col2 {width:632px}
 .cols {width:268px}
+.frontPage .col1 {width:320px;}
 /* page1 */
 #page1 #logo_box{padding:48px 0 32px 0px}
 #page1 header nav {top:72px}
