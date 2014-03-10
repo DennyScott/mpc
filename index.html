@@ -33,33 +33,7 @@
 
 
 	
-<script type="text/javascript">
 
-        var currDate=new Date();
-        var currMonth = currDate.getMonth();
-		
-        currMonth = parseInt(currMonth) + 1;
-		
-        console.log("creating date"); 
-       
-        var newCSS = "css/layout.css";
-       
-	   if (currMonth >= 1) {
-				newCSS = "css/layoutWinter.css";				
-		}else if(currMonth >= 3) {
-            newCSS = 'css/layoutSpring.css';
-        }else if (currMonth >= 6){
-
-				newCSS = 'css/layoutSummer.css'; 				
-		}else if (currMonth >= 9) {
-				newCSS = 'css/layoutFall.css';   
-		}else {
-				newCSS = 'css/layoutWinter.css';
-		}
-
-       
-        document.getElementById('siteCSS').href = newCSS;
-</script>
 	
 	
 	
