@@ -23,26 +23,7 @@
 	<script type="text/javascript" src="../js/Myriad_Pro_300.font.js"></script>
 	<!-- ENDS Javascript/JQuery-->
 
-	<script type="text/javascript">
- // Get current month
-        var currDate=new Date();
-        var currMonth = currDate.getMonth();
-		
-        // Month returned by getDate() is 0 to 11 so add 1
-        currMonth = parseInt(currMonth) + 1;
-		
- 
-        // Based on month assign style sheet name
-        var newCSS = "../css/layout.css";
-        if (currMonth >= 1) newCSS = "../css/layoutWinter.css"; // Month is January or greater
-        if (currMonth >= 3) newCSS = '../css/layoutSpring.css'; // Month is March or greater
-        if (currMonth >= 6) newCSS = '../css/layoutSummer.css'; // Month is June or greater
-        if (currMonth >= 9) newCSS = '../css/layoutFall.css';   // Month is September or greater
-        if (currMonth == 12) newCSS = '../css/layoutWinter.css'; // Month is December
-
-        // Assign new style sheet name as the new href for "siteCSS" LINK tag
-        document.getElementById('siteCSS').href = newCSS;
-</script>
+	 
 	
 		<!-- Nivo slider -->
 		<link rel="stylesheet" href="../css/nivo-slider.css" type="text/css" media="screen" />
@@ -236,7 +217,7 @@
 				<!-- wrapper-bottom -->
 				<div class="wrapper">
 				<div class="main">
-					<div id="bottom-text">&copy;2012 MPC All Rights Reserved.</div>
+					<div id="bottom-text">&copy;2014 MPC All Rights Reserved.</div>
 					<!-- Social -->
 					<ul class="social ">
 						

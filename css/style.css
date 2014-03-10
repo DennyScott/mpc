@@ -11,6 +11,11 @@ mark, rp, rt, ruby, summary, time {display:inline}
 }
 
 .right {float:right}
+.pull-right{text-align: right;}
+.push-right{
+	margin-left:200px!important;
+	margin-bottom:10px!important;
+}
 .wrapper {width:100%;overflow:hidden}
 
 
