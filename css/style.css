@@ -9,7 +9,18 @@ mark, rp, rt, ruby, summary, time {display:inline}
 .frontPage {
     width:320px!important;
 }
+.thumbnail_img{
+    width:130px;
+}
 
+.policeCommissionLogo, #logo_box h1 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+    font-size:40px;
+
+}
 .right {float:right}
 .pull-right{text-align: right;}
 .push-right{
@@ -87,7 +98,7 @@ header nav {border:1px solid #bebebe;background:url(../images/menu_bg.gif) botto
 #youtube {width:100%;}
 .marg_top { position:relative;margin-top:-168px;z-index:11}
 .marg_top2 {margin-top:11px}
-.pad_left1 {padding-left:24px}
+.pad_left1 {padding-left:0px}
 .pad {padding:0 35px}
 .pad_bot1 {padding-bottom:22px}
 .marg_right1 {margin-right:20px}
