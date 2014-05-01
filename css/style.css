@@ -2,6 +2,9 @@
 article, aside, audio, canvas, command, datalist, details, embed, figcaption, figure, footer, header, hgroup, keygen, meter, nav, output, progress, section, source, video {display:block}
 mark, rp, rt, ruby, summary, time {display:inline}
 
+.gallery-image {
+    max-height:100%;
+}
 
 /* Left & Right alignment */
 .left {float:left}
