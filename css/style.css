@@ -16,6 +16,10 @@ mark, rp, rt, ruby, summary, time {display:inline}
     width:130px;
 }
 
+.rick{
+    width:250px;
+}
+
 .policeCommissionLogo, #logo_box h1 {
     font-family: inherit;
     font-weight: 500;
