@@ -12,6 +12,10 @@ mark, rp, rt, ruby, summary, time {display:inline}
 .frontPage {
     width:320px!important;
 }
+
+.box-image {
+	width:100px!important;
+}
 .thumbnail_img{
     width:130px;
 }
